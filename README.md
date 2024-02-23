@@ -1,6 +1,6 @@
 # HSLU Typst Template
 
-Simple [Typst](https://typst.app/) template for HSLU theses. It's built from scratch, but I took some valuable inspiration from [DarkDampSquib/hslu_template_typst](https://github.com/DarkDampSquib/hslu_template_typst) for external packages.
+Simple [Typst](https://typst.app/) template for HSLU theses ([demo](main.pdf)). It's built from scratch, but I took some valuable inspiration from [DarkDampSquib/hslu_template_typst](https://github.com/DarkDampSquib/hslu_template_typst) for external packages.
 
 Since the template is in German anyway, I'll switch language now. If you want to port it to another language, I'll gladly add a link to your repo.
 
