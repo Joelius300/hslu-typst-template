@@ -38,12 +38,18 @@
   }
 }
 
+// Function to get an image with a caption
 #let img(name, caption, alt: none, ..img_args) = {
   if alt == none and type(caption) == str {
     alt = caption
   }
 
   figure(image("img/" + name, alt: alt, ..img_args), caption: caption)
+}
+
+// Function to get a simple horizontal rule
+#let hr() = {
+  line(length: 100%, stroke: .2em + color.rgb(20%, 20%, 20%, 15%))
 }
 
 #let project(
