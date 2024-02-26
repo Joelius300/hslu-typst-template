@@ -14,6 +14,7 @@ Ganz grundsätzlich: Es muss vor allem für die Betreuungsperson stimmen; sprech
 - Automatische Seitenzahlen mit unterschiedlicher Nummerierung in Front- und Back-matter vs Hauptteil (mithilfe von [tingerrr/anti-matter](https://github.com/tingerrr/anti-matter))
 - Automatische Titel-, Bild-, Formel- und Tabellennummerierung mit Kapitelunterteilung (mithilfe von [RubixDev/typst-i-figured](https://github.com/RubixDev/typst-i-figured))
 - Automatische Inhaltsverzeichnisse inkl. Abkürzungs-, Bild-, Formel- und Tabellenverzeichnis
+- Automatische TODO-Liste mit Seitenzahlen
 - Helferfunktionen wie `eq` (Formel) und `img` (Bild) mit Beispielen
 - Referenzen und Bibliografie mit BibTeX (beispielsweise). Ich empfehle aus [Zotero](https://www.zotero.org/) zu exportieren.
 
