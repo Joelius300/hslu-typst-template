@@ -52,6 +52,18 @@
   line(length: 100%, stroke: .2em + color.rgb(20%, 20%, 20%, 15%))
 }
 
+// Function to display a reminder that something here needs to be reviewed (optionally with some people).
+// Avoids constantly typing todo(inline: true).
+#let rev(..people) = {
+  let text = "Review"
+  if people.pos().len() > 0 {
+    let people = people.pos().join(", ")
+    text = text + " with " + people
+  }
+
+  todo(text, inline: true)
+}
+
 #let project(
   title: "",
   subtitle: "",
